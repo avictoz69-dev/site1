@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon"
+        href="Imagens/Carmin Sword.png"
+        type="image/x-icon">
+
+    <title>📚 BIBLIOTECA VIRTUAL 📚</title>
+
+    <style>
+
+        /* CONFIGURAÇÕES GERAIS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* FUNDO DO SITE */
+        body {
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+
+            background-image:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.60),
+                    rgba(20, 10, 30, 0.80)
+                ),
+                url("https://images.unsplash.com/photo-1507842217343-583bb7270b66");
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* CABEÇALHO */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.55);
+            border-bottom: 2px solid #d6a85c;
+        }
+
+        header h1 {
+            color: #f5d78e;
+            font-size: 38px;
+            text-shadow: 2px 2px 6px black;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #eeeeee;
+        }
+
+        /* INTRODUÇÃO */
+        .introducao {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 30px;
+            text-align: center;
+            line-height: 1.8;
+            font-size: 19px;
+
+            background: rgba(0, 0, 0, 0.70);
+            border-radius: 15px;
+            border: 1px solid #d6a85c;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+        }
+
+        .introducao h2 {
+            color: #f5d78e;
+            margin-bottom: 15px;
+        }
+
+        /* IMAGEM CENTRAL */
+        .imagem {
+            text-align: center;
+            margin: 40px 15px;
+        }
+
+        .imagem img {
+            width: 450px;
+            max-width: 90%;
+            height: auto;
+
+            border-radius: 15px;
+            border: 3px solid #f5d78e;
+
+            box-shadow: 0 5px 25px black;
+            transition: 0.4s;
+        }
+
+        .imagem img:hover {
+            transform: scale(1.03);
+        }
+
+        /* ÁREA DE DOWNLOADS */
+        .downloads {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 35px 20px;
+
+            text-align: center;
+
+            background: rgba(0, 0, 0, 0.75);
+            border-radius: 15px;
+            border: 1px solid #d6a85c;
+
+            box-shadow: 0 5px 20px black;
+        }
+
+        .downloads h2 {
+            color: #f5d78e;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+
+        .downloads p {
+            font-size: 17px;
+            margin-bottom: 25px;
+        }
+
+        /* BOTÃO */
+        .botao {
+            display: inline-block;
+            padding: 15px 30px;
+
+            background: #a66b35;
+            color: white;
+
+            text-decoration: none;
+            font-weight: bold;
+
+            border-radius: 10px;
+            border: 2px solid #f5d78e;
+
+            transition: 0.3s;
+        }
+
+        .botao:hover {
+            background: #d69b54;
+            color: black;
+            transform: scale(1.06);
+        }
+
+        /* RODAPÉ */
+        footer {
+            margin-top: 50px;
+            padding: 25px;
+            text-align: center;
+
+            background: rgba(0, 0, 0, 0.85);
+            color: #f5d78e;
+
+            border-top: 2px solid #d6a85c;
+        }
+
+        /* ADAPTAÇÃO PARA CELULARES */
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 27px;
+            }
+
+            header p {
+                font-size: 15px;
+            }
+
+            .introducao {
+                margin: 20px;
+                font-size: 16px;
+                padding: 20px;
+            }
+
+            .downloads {
+                margin: 20px;
+            }
+
+            .downloads h2 {
+                font-size: 20px;
+            }
+
+            .botao {
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <h1>📚 BIBLIOTECA VIRTUAL 📚</h1>
+
+        <p>
+            Um universo de conhecimento espera por você!
+        </p>
+
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- APRESENTAÇÃO -->
+        <section class="introducao">
+
+            <h2>✨ Bem-vindo à Biblioteca Virtual! ✨</h2>
+
+            <p>
+                Este site tem como intuito despertar
+                seus desejos e interesses pela leitura.
+
+                Explore nossa biblioteca, descubra novas
+                histórias e amplie seus conhecimentos.
+
+                Siga as instruções deste site e prepare-se
+                para iniciar uma incrível jornada pelo
+                universo dos livros!
+            </p>
+
+        </section>
+
+
+        <!-- IMAGEM ILUSTRATIVA -->
+        <div class="imagem">
+
+            <img
+                src="Imagens/images (1).jpg"
+                alt="Mesa com livros">
+
+        </div>
+
+
+        <!-- LINKS PARA DOWNLOAD -->
+        <section class="downloads">
+
+            <h2>
+                📖 LINKS PARA BAIXAR LIVROS GRATUITOS
+            </h2>
+
+            <p>
+                Encontre histórias incríveis e descubra
+                novos mundos através da leitura!
+            </p>
+
+            <a
+                class="botao"
+                href="https://www.baixelivros.com.br/"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                📚 BAIXAR LIVROS GRATUITOS
+
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            📚 BIBLIOTECA VIRTUAL
+        </p>
+
+        <p>
+            Conhecimento sem limites!
+        </p>
+
+        <p>
+            © 2026 - Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
